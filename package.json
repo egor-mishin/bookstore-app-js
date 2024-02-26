@@ -1,0 +1,26 @@
+{
+  "name": "js-fraimwork__bookstore",
+  "version": "1.0.0",
+  "description": "Book Store App",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "rollup": "^4.12.0",
+    "rollup-plugin-import-css": "^3.4.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
