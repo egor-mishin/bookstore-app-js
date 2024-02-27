@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Book Store App",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "live-server",
     "build": "rollup -c --watch"
@@ -21,6 +21,7 @@
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-promise": "^6.1.1"
+    "eslint-plugin-promise": "^6.1.1",
+    "on-change": "^5.0.1"
   }
 }
